@@ -3,7 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Homework 8.1. Reinforcing Float Layout</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <h2 class="roboto-font">One block on the left, the other on the right</h2>
+    <div class="divcontainer div__float_left roboto-font">Float left</div>
+    <div class="divcontainer div__float_right roboto-font">Float right</div>
+    <h2 class="roboto-font">
+      one block on the left, several blocks on the right
+    </h2>
+    <div class="divcontainer div__float-left roboto-font">One block left</div>
+    <div class="divcontainer div__float-right roboto-font">
+      One bloack right
+    </div>
+    <div class="divcontainer div__float-right roboto-font">
+      Another block right
+    </div>
+    <div class="divcontainer div__float-right roboto-font">
+      And another bloack right
+    </div>
+    <h2 class="roboto-font">two blocks on the left, two on the right</h2>
+    <div class="container roboto-font">
+      <div class="divcontainer div__float-left">Example block left</div>
+      <div class="divcontainer div__float-left">Another one</div>
+      <div class="divcontainer div__float-right">Example block right</div>
+      <div class="divcontainer div__float-right">Example block right</div>
+    </div>
+    <h2 class="roboto-font">
+      three blocks on the right (two of them one below the other)
+    </h2>
+    <div class="space">
+      <div class="container2 roboto-font">
+        <div class="divcontainer big">Big block</div>
+        <div class="divcontainer top">Small top block</div>
+        <div class="divcontainer bottom">Small bottom block</div>
+      </div>
+    </div>
+    <h2 class="roboto-font">
+      three blocks in the centre (two of them one below the other)
+    </h2>
+    <div class="space">
+      <div class="container3 roboto-font">
+        <div class="divcontainer simple-big">Big block</div>
+        <div class="divcontainer simple-top">Small top block</div>
+        <div class="divcontainer simple-bottom">Small bottom block</div>
+      </div>
+    </div>
+  </body>
 </html>

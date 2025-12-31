@@ -1,0 +1,99 @@
+.roboto-font {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.divcontainer {
+  border: solid black;
+  border-radius: 12px;
+  background-color: wheat;
+  font-size: large;
+  max-width: 100px;
+  margin: 15px;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  font-size: large;
+  max-width: 50px;
+  margin: 15px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  max-width: 1800px;
+  margin: 0 auto;
+  height: 150px;
+  overflow: hidden;
+}
+
+.container::after {
+  content: " ";
+  clear: both;
+}
+
+.div__float_left {
+  float: left;
+}
+
+.div__float_right {
+  float: right;
+}
+
+h2 {
+  text-align: center;
+  clear: both;
+}
+
+.div__float-left {
+  float: left;
+}
+
+.div__float-right {
+  float: right;
+}
+
+.big {
+  height: 100px;
+  float: left;
+}
+
+.top {
+  float: right;
+}
+
+.bottom {
+  float: right;
+}
+
+.container2 {
+  width: 400px;
+  float: right;
+}
+
+.space {
+  height: 230px;
+  margin: 20px;
+}
+
+.simple-big {
+  height: 100px;
+  float: left;
+}
+
+.simple-top {
+  float: right;
+}
+
+.simple-bottom {
+  float: right;
+}
+
+.container3 {
+  width: 400px;
+  float: right;
+  margin-right: 35%;
+}
